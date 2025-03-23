@@ -62,7 +62,7 @@ Before setting up the project, ensure you have:
 3. Set Up Environment Variables (Optional but Recommended):
    Create a `.env` file in `backend/`:
    ```plaintext
-   MONGO_URI=mongodb+srv://washira:washira@mernstackweek6.hda04.mongodb.net/bug-tracker?retryWrites=true&w=majority
+   MONGO_URI=mongodb+srv://@mernstackweek6.hda04.mongodb.net/bug-tracker?retryWrites=true&w=majority
    PORT=5000
    ```
    Update `server.js` to use dotenv:
@@ -70,7 +70,7 @@ Before setting up the project, ensure you have:
    require("dotenv").config();
    const mongoURI =
      process.env.MONGO_URI ||
-     "mongodb+srv://washira:washira@mernstackweek6.hda04.mongodb.net/bug-tracker?retryWrites=true&w=majority";
+     "mongodb+srv://@mernstackweek6.hda04.mongodb.net/bug-tracker?retryWrites=true&w=majority";
    const PORT = process.env.PORT || 5000;
    ```
 
