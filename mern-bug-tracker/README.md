@@ -39,7 +39,7 @@ Before setting up the project, ensure you have:
 
 - **Node.js**: Version 20.17.0 or higher (download from nodejs.org).
 - **npm**: Comes with Node.js (verify with `npm -v`).
-- **MongoDB Atlas Account**: For cloud database access (your URI: `mongodb+srv://washira:washira@mernstackweek6.hda04.mongodb.net/`).
+- **MongoDB Atlas Account**: For cloud database access.
 - **Git**: For cloning the repository (optional).
 - **Text Editor**: VS Code or similar recommended.
 
